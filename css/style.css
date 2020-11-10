@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Gardens;
+  src: url("../fonts/20011.ttf");
+}
+body {
+    background: #FFFFFF;
+}
+.main {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.info-nalart {
+    margin-bottom: 160px;
+    display: block;
+    text-align: center;
+}
+.nalart {
+    width: 500px;
+    height: 500px;
+}
+.about {
+    font-family: Gardens;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+}
+.l {
+    width: 48px;
+    height: 48px;
+}
+.link {
+    text-decoration: none;
+}
+.form {
+    color: red;
+}
+.form:active,
+.form:hover {
+    color: #CF9400;
+}
+.links {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width: 576px) {
+    .l {
+        width: 24px;
+        height: 24px;
+    }
+    .about {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .nalart {
+        width: 250px;
+        height: 250px;
+    }
+}
